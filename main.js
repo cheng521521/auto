@@ -1,1 +1,12 @@
+console.show();
+launchApp("支付宝");
+log("打开支付宝");
+sleep(1000);
+className("android.widget.LinearLayout").clickable(true).depth(19).findOne().click();
+log("输入理财直播");
+sleep(5000);
+log("点击搜索");
+click(986,154);
+sleep(1000);
+className("android.widget.FrameLayout").clickable(true).depth(14).findOne().click();
 toast('Hello, Auto.js');
